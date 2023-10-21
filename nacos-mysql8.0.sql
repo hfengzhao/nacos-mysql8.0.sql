@@ -1,5 +1,5 @@
-CREATE USER 'nacos'@'172.17.0.1' IDENTIFIED BY 'nacos';
-GRANT ALL PRIVILEGES ON *.* TO  'nacos'@'172.17.0.1';
+CREATE USER 'nacos'@'yourip' IDENTIFIED BY 'nacos';
+GRANT ALL PRIVILEGES ON *.* TO  'nacos'@'yourip';
 
 CREATE DATABASE nacos;
 
